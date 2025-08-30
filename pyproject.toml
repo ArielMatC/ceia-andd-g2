@@ -1,0 +1,20 @@
+[project]
+name = "ceia-andd-g2"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Alex Martín Curellich"},
+    {name = "Ariel Matías Cabello"},
+    {name = "Ignacio Agustin Costarelli"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.3.2,<3.0.0)",
+    "numpy (>=2.3.2,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
