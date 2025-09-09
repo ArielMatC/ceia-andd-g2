@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_05c435556cf7f3b16811dc1915958eef {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_05c435556cf7f3b16811dc1915958eef" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_05c435556cf7f3b16811dc1915958eef = L.map(
+                "map_05c435556cf7f3b16811dc1915958eef",
+                {
+                    center: [-34.6037, -58.3816],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5fc9e5ccf71b93ee029565a605794235 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5fc9e5ccf71b93ee029565a605794235.addTo(map_05c435556cf7f3b16811dc1915958eef);
+        
+    
+            var marker_bba3396f762649dc0b2ec3cbb66b6bbb = L.marker(
+                [-34.583749, -58.390602],
+                {
+}
+            ).addTo(map_05c435556cf7f3b16811dc1915958eef);
+        
+    
+            var icon_7759a66b94e2989e3d058d548acdf017 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "flag-checkered",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b558b5c2f7e09811d0d7f4be3b4c5fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe4245c89a1bfd42738c2fd418839c71 = $(`<div id="html_fe4245c89a1bfd42738c2fd418839c71" style="width: 100.0%; height: 100.0%;">001 - FACULTAD DE DERECHO</div>`)[0];
+                popup_9b558b5c2f7e09811d0d7f4be3b4c5fb.setContent(html_fe4245c89a1bfd42738c2fd418839c71);
+            
+        
+
+        marker_bba3396f762649dc0b2ec3cbb66b6bbb.bindPopup(popup_9b558b5c2f7e09811d0d7f4be3b4c5fb)
+        ;
+
+        
+    
+    
+            marker_bba3396f762649dc0b2ec3cbb66b6bbb.bindTooltip(
+                `<div>
+                     001 - FACULTAD DE DERECHO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bba3396f762649dc0b2ec3cbb66b6bbb.setIcon(icon_7759a66b94e2989e3d058d548acdf017);
+            
+    
+            var marker_a3b34fd41deb64a7f8f70bccf30f5f86 = L.marker(
+                [-34.583749, -58.390602],
+                {
+}
+            ).addTo(map_05c435556cf7f3b16811dc1915958eef);
+        
+    
+            var div_icon_4d8a30cc83513b753590203d041ace49 = L.divIcon({
+  "html": "\u003cdiv style=\"transform:translate(12px,-18px);background:#fff;border:1px solid rgba(0,0,0,.2);border-radius:4px;padding:2px 6px;font-size:12px;font-weight:700;color:#000;display:inline-block;max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none;\"\u003e001 - FACULTAD DE DERECHO\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_a3b34fd41deb64a7f8f70bccf30f5f86.setIcon(div_icon_4d8a30cc83513b753590203d041ace49);
+            
+    
+            var marker_09004dd75ddedaaa81c5a623b8949244 = L.marker(
+                [-34.577424, -58.426387],
+                {
+}
+            ).addTo(map_05c435556cf7f3b16811dc1915958eef);
+        
+    
+            var icon_b5044d76d830cc7ea7639b401942f790 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "flag-checkered",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_442ce25c580148bea21f235031847d68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd6246ca8a75f713726ace68aa74be8f = $(`<div id="html_bd6246ca8a75f713726ace68aa74be8f" style="width: 100.0%; height: 100.0%;">014 - Pacifico</div>`)[0];
+                popup_442ce25c580148bea21f235031847d68.setContent(html_bd6246ca8a75f713726ace68aa74be8f);
+            
+        
+
+        marker_09004dd75ddedaaa81c5a623b8949244.bindPopup(popup_442ce25c580148bea21f235031847d68)
+        ;
+
+        
+    
+    
+            marker_09004dd75ddedaaa81c5a623b8949244.bindTooltip(
+                `<div>
+                     014 - Pacifico
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_09004dd75ddedaaa81c5a623b8949244.setIcon(icon_b5044d76d830cc7ea7639b401942f790);
+            
+    
+            var marker_548eaf9750b2f6ee63a64c37417ef27b = L.marker(
+                [-34.577424, -58.426387],
+                {
+}
+            ).addTo(map_05c435556cf7f3b16811dc1915958eef);
+        
+    
+            var div_icon_48b6f8ba0f286452ce0c151a9f0fda95 = L.divIcon({
+  "html": "\u003cdiv style=\"transform:translate(12px,-18px);background:#fff;border:1px solid rgba(0,0,0,.2);border-radius:4px;padding:2px 6px;font-size:12px;font-weight:700;color:#000;display:inline-block;max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none;\"\u003e014 - Pacifico\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_548eaf9750b2f6ee63a64c37417ef27b.setIcon(div_icon_48b6f8ba0f286452ce0c151a9f0fda95);
+            
+    
+            var marker_e09d14d507f09d6bcfe411b487265aa6 = L.marker(
+                [-34.5709984, -58.423346900000006],
+                {
+}
+            ).addTo(map_05c435556cf7f3b16811dc1915958eef);
+        
+    
+            var icon_6d360219f675653ae02805114a8ed2ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "flag-checkered",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_79b2fc87b96616137c40958a0bd67133 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_990c4e07b6d6607344f698a1fbe2334f = $(`<div id="html_990c4e07b6d6607344f698a1fbe2334f" style="width: 100.0%; height: 100.0%;">368 - PLAZA DE LA SHOÁ</div>`)[0];
+                popup_79b2fc87b96616137c40958a0bd67133.setContent(html_990c4e07b6d6607344f698a1fbe2334f);
+            
+        
+
+        marker_e09d14d507f09d6bcfe411b487265aa6.bindPopup(popup_79b2fc87b96616137c40958a0bd67133)
+        ;
+
+        
+    
+    
+            marker_e09d14d507f09d6bcfe411b487265aa6.bindTooltip(
+                `<div>
+                     368 - PLAZA DE LA SHOÁ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e09d14d507f09d6bcfe411b487265aa6.setIcon(icon_6d360219f675653ae02805114a8ed2ef);
+            
+    
+            var marker_2643d6e3e8d6aae6a9ef9fd865e849be = L.marker(
+                [-34.5709984, -58.423346900000006],
+                {
+}
+            ).addTo(map_05c435556cf7f3b16811dc1915958eef);
+        
+    
+            var div_icon_d3b15d18bf7197b26a15f46848d56df8 = L.divIcon({
+  "html": "\u003cdiv style=\"transform:translate(12px,-18px);background:#fff;border:1px solid rgba(0,0,0,.2);border-radius:4px;padding:2px 6px;font-size:12px;font-weight:700;color:#000;display:inline-block;max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none;\"\u003e368 - PLAZA DE LA SHO\u00c1\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_2643d6e3e8d6aae6a9ef9fd865e849be.setIcon(div_icon_d3b15d18bf7197b26a15f46848d56df8);
+            
+    
+            var marker_a37951ca3d83996d9407414ca690d547 = L.marker(
+                [-34.626851, -58.380707],
+                {
+}
+            ).addTo(map_05c435556cf7f3b16811dc1915958eef);
+        
+    
+            var icon_ba41168397bacf233afd81ccf8468fb6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "flag-checkered",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_627a314927af025b11a4171395cb9bcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_daf84932326ffb08420371ed36f35e75 = $(`<div id="html_daf84932326ffb08420371ed36f35e75" style="width: 100.0%; height: 100.0%;">147 - Constitución</div>`)[0];
+                popup_627a314927af025b11a4171395cb9bcb.setContent(html_daf84932326ffb08420371ed36f35e75);
+            
+        
+
+        marker_a37951ca3d83996d9407414ca690d547.bindPopup(popup_627a314927af025b11a4171395cb9bcb)
+        ;
+
+        
+    
+    
+            marker_a37951ca3d83996d9407414ca690d547.bindTooltip(
+                `<div>
+                     147 - Constitución
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a37951ca3d83996d9407414ca690d547.setIcon(icon_ba41168397bacf233afd81ccf8468fb6);
+            
+    
+            var marker_de762724afce3150e217a6920b783cd8 = L.marker(
+                [-34.626851, -58.380707],
+                {
+}
+            ).addTo(map_05c435556cf7f3b16811dc1915958eef);
+        
+    
+            var div_icon_c829fb801aec33028ac8c7a4aa8e2369 = L.divIcon({
+  "html": "\u003cdiv style=\"transform:translate(12px,-18px);background:#fff;border:1px solid rgba(0,0,0,.2);border-radius:4px;padding:2px 6px;font-size:12px;font-weight:700;color:#000;display:inline-block;max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none;\"\u003e147 - Constituci\u00f3n\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_de762724afce3150e217a6920b783cd8.setIcon(div_icon_c829fb801aec33028ac8c7a4aa8e2369);
+            
+    
+            var marker_91294637b08ce4de9672b8c346e14f8d = L.marker(
+                [-34.5805497, -58.4209542],
+                {
+}
+            ).addTo(map_05c435556cf7f3b16811dc1915958eef);
+        
+    
+            var icon_2138913a9e540aa350a5207af675fefc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "flag-checkered",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11318c65c0718e03399d6f94ba043bfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bd3dc831c0cacaafeb8aaae3e596ab3 = $(`<div id="html_2bd3dc831c0cacaafeb8aaae3e596ab3" style="width: 100.0%; height: 100.0%;">005 - Plaza Italia</div>`)[0];
+                popup_11318c65c0718e03399d6f94ba043bfa.setContent(html_2bd3dc831c0cacaafeb8aaae3e596ab3);
+            
+        
+
+        marker_91294637b08ce4de9672b8c346e14f8d.bindPopup(popup_11318c65c0718e03399d6f94ba043bfa)
+        ;
+
+        
+    
+    
+            marker_91294637b08ce4de9672b8c346e14f8d.bindTooltip(
+                `<div>
+                     005 - Plaza Italia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_91294637b08ce4de9672b8c346e14f8d.setIcon(icon_2138913a9e540aa350a5207af675fefc);
+            
+    
+            var marker_3c8e3ed0417a9565cc12ac85aebbd356 = L.marker(
+                [-34.5805497, -58.4209542],
+                {
+}
+            ).addTo(map_05c435556cf7f3b16811dc1915958eef);
+        
+    
+            var div_icon_065e62274658c31286e22abb444a7d28 = L.divIcon({
+  "html": "\u003cdiv style=\"transform:translate(12px,-18px);background:#fff;border:1px solid rgba(0,0,0,.2);border-radius:4px;padding:2px 6px;font-size:12px;font-weight:700;color:#000;display:inline-block;max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none;\"\u003e005 - Plaza Italia\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+                marker_3c8e3ed0417a9565cc12ac85aebbd356.setIcon(div_icon_065e62274658c31286e22abb444a7d28);
+            
+</script>
+</html>

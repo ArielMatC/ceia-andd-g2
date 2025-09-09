@@ -22,9 +22,9 @@ Este trabajo consiste en analizar y preparar los datos (sin entrenar un modelo) 
 **Origen de los datos** (año 2024):
 - BA Data. Secretaría de Transporte y Obras Públicas. Jefatura de Gabinete de Ministros: https://data.buenosaires.gob.ar/dataset/bicicletas-publicas
 
-- Usuarios Ecobici 2024: https://data.buenosaires.gob.ar/dataset/bicicletas-publicas/resource/263fa064-bbf1-4e5f-a8ce-717cc2bd6075 (update al 4 de Agosto de 2025)
+- Usuarios Ecobici 2024: https://data.buenosaires.gob.ar/dataset/bicicletas-publicas/resource/263fa064-bbf1-4e5f-a8ce-717cc2bd6075 (update al 3 de Septiembre de 2025)
 
-- Recorridos Realizados 2024: https://data.buenosaires.gob.ar/dataset/bicicletas-publicas/resource/0fb65518-a9a7-42c1-8284-2dece001fe5d (update al 27 de Marzo de 2025)
+- Recorridos Realizados 2024: https://data.buenosaires.gob.ar/dataset/bicicletas-publicas/resource/36846f29-05bb-4e05-b488-52916bbaae61 (update al 3 de Septiembre de 2025)
 <br>
 <br>
 
