@@ -14,9 +14,12 @@ dependencies = [
     "numpy (>=2.3.2,<3.0.0)",
     "matplotlib (>=3.10.6,<4.0.0)",
     "seaborn (>=0.13.2,<0.14.0)",
-    "folium (>=0.20.0,<0.21.0)"
+    "folium (>=0.20.0,<0.21.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)"
 ]
 
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
