@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+data_analysis_V2.ipynb
 # Distribution / packaging
 .Python
 build/
